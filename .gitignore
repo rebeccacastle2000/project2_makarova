@@ -1,5 +1,15 @@
+# Виртуальное окружение
+.venv/
+venv/
 __pycache__/
 *.pyc
-.venv/
+*.pyo
+
+# Сборка пакета
 dist/
 *.whl
+*.egg-info/
+
+# Данные базы данных
+db_meta.json
+data/
